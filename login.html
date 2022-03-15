@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="login">
+        <h3>
+             <a href="index.html" >HOME</a>
+             <a href="about.html" >ABOUT</a>
+             <a href="login.html" >LOGIN</a>
+         </h3>
+    </div>
+
+	<div class="continear">
+		<div class="loggincss">
+			<form action="/server.php" method="GET">
+				<label for="firstname">ISM</label>
+				<input type="text" id="firsname" name="firstname" placeholder="Ismingiz">
+				<label for="lastname">FAMILYA</label>
+				<input type="text" id="lastname" name="lastname" placeholder="familyangiz">
+				<label for="country">Davlat</label>
+				<select name="country" id="country">
+					<option value="uzbekistan">O'zbekiston</option>
+					<option value="ingliz">AQSH</option>
+					<option value="russia">Rossiya</option>
+				</select>
+				<label for="message">Xabar</label>
+				<textarea name="message" id="message" ></textarea>
+				<button type="submit" class="button">Yuborish</button>
+		
+				
+			</form>
+		</div>
+	</div>
+
+	<div id="under">
+        <h4>Footer</h4>
+    </div>
+
+</body>
+</html>

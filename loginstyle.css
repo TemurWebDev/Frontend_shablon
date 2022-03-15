@@ -1,0 +1,32 @@
+.loggincss{
+	width: 40%;
+	
+	
+	
+}
+
+
+
+input[type=text],select, textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid rgb(118, 238, 19);
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+
+.button{
+	background-color: burlywood;
+	color: rgb(221, 37, 37);
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #000;
+}
